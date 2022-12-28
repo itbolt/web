@@ -26,7 +26,8 @@ body{
 .header{
     background-color: rgb(244, 244, 244);
     width:100%;
-    height:150px;
+    height:115px;
+    display: inline-block;
     background-position: center;
     position:relative;
 }
@@ -34,17 +35,28 @@ body{
 .nav{
     width: 50%;
     height: 100px;
-    display: flex;
+    display: none;
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
+    
 }
 
-nav img{
-    width: 200px;
+
+.image-box{
+    border: 3px rgb(244, 244, 244);
+    padding: 15px;
+    position:absolute;
 }
 
+.image-box img{
+    width:250px;
+}
 .nav-links{
+    border: 3px rgb(244, 244, 244);
+    width:100%;
+    padding:25px;
+    padding-left:0px;
     flex:auto;
     text-align: center;
 }
@@ -57,7 +69,8 @@ nav img{
 }
 
 .nav-links ul li a{
-    color: rgb(19, 19, 19);
+    text-align: center;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 24px;
 

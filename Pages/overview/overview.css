@@ -7,33 +7,56 @@
 
 body{
     font-family: 'Nunito', sans-serif;
+    /*background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(Resources/Images/white1.png),url(Resources/Images/nezukobg.jpg);
+    background: url(Resources/Images/nezukobg.jpg);
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;*/
+
+    /*------------------------------------
+    background-position: right bottom, left top;
+    background-size: contain,contain;
+    background-repeat: no-repeat, no-repeat;*/
 }
 
-
+/*-------------NAV BAR--------------*/
 
 .header{
     background-color: rgb(244, 244, 244);
     width:100%;
-    height:150px;
+    height:115px;
+    display: inline-block;
     background-position: center;
-    position:absolute;
+    position:relative;
 }
 
 .nav{
     width: 50%;
     height: 100px;
-    display: flex;
+    display: none;
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
+    
 }
 
-nav img{
-    padding-top: 15px;
-    width: 200px;
+
+.image-box{
+    border: 3px rgb(244, 244, 244);
+    padding: 15px;
+    position:absolute;
 }
 
+.image-box img{
+    width:250px;
+}
 .nav-links{
+    border: 3px rgb(244, 244, 244);
+    width:100%;
+    padding:25px;
+    padding-left:0px;
     flex:auto;
     text-align: center;
 }
@@ -46,7 +69,8 @@ nav img{
 }
 
 .nav-links ul li a{
-    color: rgb(19, 19, 19);
+    text-align: center;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 24px;
 
@@ -64,4 +88,22 @@ nav img{
 
 .nav-links ul li:hover::after{
     width:100%;
+}
+
+
+/*-------------TONG QUAN--------------*/
+
+.textbox1{
+    background-color: blanchedalmond;
+}
+
+
+
+
+.textbox3{
+    background-color: blanchedalmond;
+}
+
+ul.list1{
+    list-style-type: circle;
 }

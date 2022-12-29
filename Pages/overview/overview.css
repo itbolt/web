@@ -104,6 +104,15 @@ body{
     background-color: blanchedalmond;
 }
 
-ul.list1{
+.list1 ul {
     list-style-type: circle;
+    background:  #3399ff;
+    padding: 20xp;
+    width:50%;
+}
+.list1 ul li{
+    list-style: disc outside none;
+    display: list-item;
+    margin-left: 30px;
+    width:35%;
 }

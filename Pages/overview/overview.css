@@ -95,7 +95,23 @@ body{
 
 .textbox1{
     background-color: blanchedalmond;
+    padding:50px;
 }
+
+.textbox1 h3{
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+.textbox1 p1{
+    color:red;
+}
+
 
 
 
@@ -115,4 +131,35 @@ body{
     display: list-item;
     margin-left: 30px;
     width:35%;
+}
+
+.sponsor1{
+    /*padding-left:50px;
+    padding-right:50px;
+    background-color:bisque;
+    display:block;
+    padding:50px;*/
+}
+
+.sponsor2{
+    /*padding-left:50px;
+    padding-right:50px;*/
+    padding:50px;
+}
+
+
+.sponsor2 p1{
+    /*padding-left:50px;
+    padding-right:50px;*/
+    font-weight: bold;
+    color:rgb(0, 0, 0);
+    padding-bottom: 20px;
+    
+}
+
+.sponsor2 p::after{
+    /*padding-left:50px;
+    padding-right:50px;*/
+    content: "\A\A";
+    white-space: pre;
 }

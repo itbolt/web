@@ -91,5 +91,90 @@ body{
 }
 
 
-/*-------------TONG QUAN--------------*/
+/*-------------Activities--------------*/
 
+.main-overview{
+
+    background:  #33e7ff;
+    padding-left: 220xp;
+    width:50%;
+}
+.list1 ul li{
+    background-color: beige;
+    list-style: decimal;
+    display: list-item;
+    margin-left: 30px;
+    width:75%;
+}
+.hello{
+    background-color: blanchedalmond;
+    color:blue;
+
+}
+
+.survey{
+    padding:50px;
+}
+
+.survey p1{
+    /*padding-left:50px;
+    padding-right:50px;*/
+    font-weight: bold;
+    color:rgb(0, 0, 0);
+    padding-bottom: 20px;
+    
+}
+
+.survey p::after{
+    /*padding-left:50px;
+    padding-right:50px;*/
+    content: "\A\A";
+    white-space: pre;
+}
+
+.survey p3::after{
+    /*padding-left:50px;
+    padding-right:50px;*/
+    content: "\A\A";
+    white-space: pre;
+}
+
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    /*
+    background-color: #33e7ff;
+    border-style:solid;
+    border-top-color:#000000;
+    border-radius: 2px;
+    padding-left:99%;*/
+}
+
+.signup ul li{
+    background-color: beige;
+    list-style: circle;
+    display: list-item;
+    margin-left: 30px;
+    width:75%;
+}
+
+.big-paragraph p::after{
+    /*padding-left:50px;
+    padding-right:50px;*/
+    content: "\A\A";
+    white-space: pre;
+}
+
+.list1 ul li{
+    
+    background-color: rgb(255, 255, 255);
+}
+
+.big-paragraph2 p::after{
+    /*padding-left:50px;
+    padding-right:50px;*/
+    content: "\A\A";
+    white-space: pre;
+}

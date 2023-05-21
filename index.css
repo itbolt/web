@@ -152,41 +152,51 @@ background-size: cover;
 
 /*------BOX 2-----*/
 .mission-box{
-    margin-top: 0px;
-    background-color: rgb(255, 150, 150);
+    display:flex;
+    align-items: center;
+    justify-content: center;
     width:50%;
-    height:75%;
+    height:50%;
     position:relative;
+    background-color: rgb(150, 255, 234);
+    
     
 
 }
 
 
 .patient-box2 {
-    position: relative;
-    margin-top:0px;
-    width: 50%;
     background-color: #ffffff;
-    padding: 20px;
-    margin-left: 24%;
-    font-size: 25px;
+    position: relative;
+    display: inline-block;
+    padding:30px;
+    width:50%;
+    height:25%;
+    
+
 }
 
-.patient-box2 h2 {
-    margin-top:30%;
-    position: absolute;
+/*------
+.patient-box2 p {
+    margin-top:15%;
+    position: relative;
     display: inline-block;
     margin-left: 0px;
     padding: 0px;
+    background-color: rgb(151, 66, 66);
+
+
+}
+
+.patient-box2 h2 {
+    margin-top:35%;
+    position: relative;
+    display: inline-block;
+    padding:10%;
     background-color: rgb(255, 255, 255);
 }
-.patient-box2 p {
-    padding-left: 0px;
-    margin-top:50%;
-    font-size: 25px;
+BOX 3-----*/
 
-
-}
 
 .patient-box2b {
     background-image: url(Resources/Images/nezukobg.jpg);

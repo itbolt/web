@@ -112,8 +112,11 @@ body{
 
 }
 
+/*-------------Survey--------------*/
+
 .survey{
     padding:50px;
+    background: rgb(240, 175, 128);
 }
 
 .survey p1{
@@ -138,6 +141,123 @@ body{
     content: "\A\A";
     white-space: pre;
 }
+/*-------------Outreach--------------*/
+.outreach{
+    padding:50px;
+    background: lightcoral;
+}
+
+.outreach p1{
+    /*padding-left:50px;
+    padding-right:50px;*/
+    font-weight: bold;
+    color:rgb(0, 0, 0);
+    padding-bottom: 20px;
+    
+}
+
+.outreach p::after{
+    /*padding-left:50px;
+    padding-right:50px;*/
+    content: "\A\A";
+    white-space: pre;
+}
+
+.outreach p3::after{
+    /*padding-left:50px;
+    padding-right:50px;*/
+    content: "\A\A";
+    white-space: pre;
+}
+
+/*-------------social--------------*/
+.social{
+    padding:50px;
+    background: rgb(128, 214, 240);
+}
+
+.social p1{
+    /*padding-left:50px;
+    padding-right:50px;*/
+    font-weight: bold;
+    color:rgb(0, 0, 0);
+    padding-bottom: 20px;
+    
+}
+
+.social p::after{
+    /*padding-left:50px;
+    padding-right:50px;*/
+    content: "\A\A";
+    white-space: pre;
+}
+
+.social p3::after{
+    /*padding-left:50px;
+    padding-right:50px;*/
+    content: "\A\A";
+    white-space: pre;
+}
+
+/*-------------seed--------------*/
+.seed{
+    padding:50px;
+    background: rgb(240, 231, 128);
+}
+
+.seed p1{
+    /*padding-left:50px;
+    padding-right:50px;*/
+    font-weight: bold;
+    color:rgb(0, 0, 0);
+    padding-bottom: 20px;
+    
+}
+
+.seed p::after{
+    /*padding-left:50px;
+    padding-right:50px;*/
+    content: "\A\A";
+    white-space: pre;
+}
+
+.seed p3::after{
+    /*padding-left:50px;
+    padding-right:50px;*/
+    content: "\A\A";
+    white-space: pre;
+}
+
+/*-------------fundraiser--------------*/
+.fundraiser{
+    padding:50px;
+    background: rgb(128, 240, 141);
+}
+
+.fundraiser p1{
+    /*padding-left:50px;
+    padding-right:50px;*/
+    font-weight: bold;
+    color:rgb(0, 0, 0);
+    padding-bottom: 20px;
+    
+}
+
+.fundraiser p::after{
+    /*padding-left:50px;
+    padding-right:50px;*/
+    content: "\A\A";
+    white-space: pre;
+}
+
+.fundraiser p3::after{
+    /*padding-left:50px;
+    padding-right:50px;*/
+    content: "\A\A";
+    white-space: pre;
+}
+
+
 
 .image{
     display: block;

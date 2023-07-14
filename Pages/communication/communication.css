@@ -32,10 +32,11 @@ body{
     
 }
 
+
 .image-box{
     border: 3px rgb(244, 244, 244);
     padding: 10px;
-    padding-left: 420px;
+    padding-left: 485px;
     position:absolute;
 }
 
@@ -43,7 +44,6 @@ body{
     width:130px;
     height: 130px;
 }
-
 .nav-links{
     border: 3px rgb(244, 244, 244);
     width:100%;
@@ -84,7 +84,6 @@ body{
 .nav-links ul li:hover::after{
     width:100%;
 }
-
 /*--------------------------*/
 
 .total{

@@ -35,7 +35,7 @@ body{
 .image-box{
     border: 3px rgb(244, 244, 244);
     padding: 10px;
-    padding-left: 420px;
+    padding-left: 485px;
     position:absolute;
 }
 
@@ -150,7 +150,6 @@ body{
 .img{ 
     width: 300%; 
 }
-
 
 /*------BOX 1-----*/
 .patient-box1{

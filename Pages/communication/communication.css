@@ -7,26 +7,16 @@
 
 body{
     font-family: 'Nunito', sans-serif;
-    /*background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(Resources/Images/white1.png),url(Resources/Images/nezukobg.jpg);
-    background: url(Resources/Images/nezukobg.jpg);
-    background-attachment:fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;*/
-
-    /*------------------------------------
-    background-position: right bottom, left top;
-    background-size: contain,contain;
-    background-repeat: no-repeat, no-repeat;*/
+    background-color: black;
 }
 
 /*-------------NAV BAR--------------*/
 
 .header{
-    background-color: rgb(244, 244, 244);
+    background-color: rgba(244,244,244,1);
+    /*background-color: rgb(244, 244, 244);*/
     width:100%;
-    height:115px;
+    height:150px;
     display: inline-block;
     background-position: center;
     position:relative;
@@ -42,37 +32,42 @@ body{
     
 }
 
-
 .image-box{
     border: 3px rgb(244, 244, 244);
-    padding: 15px;
+    padding: 10px;
+    padding-left: 420px;
     position:absolute;
 }
 
 .image-box img{
-    width:250px;
+    width:130px;
+    height: 130px;
 }
+
 .nav-links{
     border: 3px rgb(244, 244, 244);
     width:100%;
-    padding:25px;
-    padding-left:0px;
+    padding:60px;
+    padding-left:13%;
     flex:auto;
     text-align: center;
+    
 }
 
 .nav-links ul li{
     list-style: none;
     display: inline-block;
-    padding:12px 12px;
+    padding:0px 12px;
     position: relative;
+    
+
 }
 
 .nav-links ul li a{
     text-align: center;
     color: rgb(0, 0, 0);
     text-decoration: none;
-    font-size: 24px;
+    font-size: 30px;
 
 }
 
@@ -80,7 +75,7 @@ body{
     content:"";
     width:0%;
     height:2px;
-    background: #00dada;
+    background: #a5d3d3;
     display:block;
     margin:auto;
     transition:0.5s;
@@ -90,27 +85,30 @@ body{
     width:100%;
 }
 
-
-
+/*--------------------------*/
 
 .total{
-    background-color: rgba(84, 255, 224, 0.842);
-    border-style: solid;
-    border-radius: 3px;
-    border-color: black;
+    background-image: url(../../Resources/decor/bg1.jpg);
     margin:auto;
-    max-width: 50%;
+    max-width: 100%;
     margin:auto;
     padding:50px;
+    text-align: center;
+    height: 55%;
 }
 
-.total p1{
-    /*padding-left:50px;
-    padding-right:50px;*/
+.total h1{
+    font-weight: bold;
+    color:rgb(168, 255, 242);
+    padding-bottom: 15px;
+}
+
+.total h3{
     font-weight: bold;
     color:rgb(0, 0, 0);
-    padding-bottom: 20px;
-    
+    padding-bottom: 15px;
+    font-size: 40px;
+
 }
 
 .total p::after{
@@ -118,4 +116,9 @@ body{
     padding-right:50px;*/
     content: "\A\A";
     white-space: pre;
+
+}
+
+a { 
+    color: rgb(167, 255, 249);
 }

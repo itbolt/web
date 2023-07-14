@@ -7,18 +7,7 @@
 
 body{
     font-family: 'Nunito', sans-serif;
-    /*background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(Resources/Images/white1.png),url(Resources/Images/nezukobg.jpg);
-    background: url(Resources/Images/nezukobg.jpg);
-    background-attachment:fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;*/
-
-    /*------------------------------------
-    background-position: right bottom, left top;
-    background-size: contain,contain;
-    background-repeat: no-repeat, no-repeat;*/
+    background-color: rgb(230, 230, 230);
 }
 
 
@@ -27,7 +16,7 @@ body{
     background-color: rgba(244,244,244,1);
     /*background-color: rgb(244, 244, 244);*/
     width:100%;
-    height:115px;
+    height:150px;
     display: inline-block;
     background-position: center;
     position:relative;
@@ -43,37 +32,42 @@ body{
     
 }
 
-
 .image-box{
     border: 3px rgb(244, 244, 244);
-    padding: 15px;
+    padding: 10px;
+    padding-left: 420px;
     position:absolute;
 }
 
 .image-box img{
-    width:250px;
+    width:130px;
+    height: 130px;
 }
+
 .nav-links{
     border: 3px rgb(244, 244, 244);
     width:100%;
-    padding:25px;
-    padding-left:0px;
+    padding:60px;
+    padding-left:13%;
     flex:auto;
     text-align: center;
+    
 }
 
 .nav-links ul li{
     list-style: none;
     display: inline-block;
-    padding:12px 12px;
+    padding:0px 12px;
     position: relative;
+    
+
 }
 
 .nav-links ul li a{
     text-align: center;
     color: rgb(0, 0, 0);
     text-decoration: none;
-    font-size: 24px;
+    font-size: 30px;
 
 }
 
@@ -81,7 +75,7 @@ body{
     content:"";
     width:0%;
     height:2px;
-    background: #00dada;
+    background: #a5d3d3;
     display:block;
     margin:auto;
     transition:0.5s;
@@ -91,11 +85,9 @@ body{
     width:100%;
 }
 
-
-
 .parallax1 {
     /* The image used */
-    background-image:  url(Resources/Images/bg1.jpg);
+    background-image:  url(Resources/Images/stickers.jpg);
   
     /* Set a specific height */
     min-height: 500px;
@@ -107,21 +99,21 @@ body{
     background-size: cover;
 }
 .parallax2 {
-/* The image used */
-background-image:  url(Resources/Images/nezukobg.jpg);
+    /* The image used */
+    background-image:  url(Resources/Images/table.jpg);
 
-/* Set a specific height */
-min-height: 500px;
+    /* Set a specific height */
+    min-height: 500px;
 
-/* Create the parallax scrolling effect */
-background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .parallax3 {
     /* The image used */
-    background-image:  url(Resources/Images/img_nature_wide.jpg);
+    background-image:  url(Resources/Images/test.jpg);
     
     /* Set a specific height */
     min-height: 500px;
@@ -134,69 +126,84 @@ background-size: cover;
 }
 
 /*-------------BOXES 1-7--------------*/
-.box{
-    margin-top: 0px;
-    background-color: rgb(230, 230, 230);
+.box1{
+
+    background-color: rgb(231, 231, 231);
+    position: relative;
+    display: flex;
     width:100%;
-    height:450px;
-    position:relative;
 }
+.box{
+
+    background-color: rgb(231, 231, 231);
+    position: relative;
+    display: inline-block;
+    width:100%;
+}
+
+.box h1{
+
+    font-size: 48px;
+    text-align: center;
+}
+
+.img{ 
+    width: 300%; 
+}
+
+
 /*------BOX 1-----*/
 .patient-box1{
-    text-decoration: none;
-    padding-top: 100px;
-    padding-left: 50px;
+    text-decoration:none;
+    background-color: rgb(231, 231, 231);
+    padding: 100px;
     text-align: Left;
     font-size: 25px;
+    width: 100%;
+
+}
+
+.patient-box1 h1{
+    font-size: 48px;
+    text-align: center;
+}
+
+.image-box1{
+    width: 100%;
+}
+.image-box1 img{
+    padding:50px;
+    width: 100%;
+    object-fit: cover;
 }
 
 /*------BOX 2-----*/
 .mission-box{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    width:50%;
-    height:50%;
-    position:relative;
-    background-color: rgb(150, 255, 234);
+    background-color: rgb(231, 231, 231);
+    position: relative;
+    display: flex;
+    width:100%;
     
     
 
 }
-
 
 .patient-box2 {
-    background-color: #ffffff;
-    position: relative;
-    display: inline-block;
-    padding:30px;
-    width:50%;
-    height:25%;
+    text-decoration:none;
+    background-color: rgb(231, 231, 231);
+    padding: 100px;
+    text-align: Left;
+    font-size: 25px;
+    width: 50%;
+
     
 
 }
 
-/*------
-.patient-box2 p {
-    margin-top:15%;
-    position: relative;
-    display: inline-block;
-    margin-left: 0px;
-    padding: 0px;
-    background-color: rgb(151, 66, 66);
-
-
+.patient-box2 h1 {
+    font-size: 48px;
+    text-align: center;
 }
-
-.patient-box2 h2 {
-    margin-top:35%;
-    position: relative;
-    display: inline-block;
-    padding:10%;
-    background-color: rgb(255, 255, 255);
-}
-BOX 3-----*/
-
 
 .patient-box2b {
     background-image: url(Resources/Images/nezukobg.jpg);
@@ -204,22 +211,43 @@ BOX 3-----*/
     right: 0px;
 }
 
-/*------BOX 3-----*/
-.patient-box3{
-    text-decoration: none;
-    padding-top: 100px;
-    padding-left: 50px;
-    text-align: left;
-    font-size: 25px;
+.image-box2{
+    width: 50%;
+}
+.image-box2 img{
+    padding:50px;
+    width: 100%;
+    object-fit: cover;
 }
 
+/*------BOX 3-----*/
 
+.box3{
+    float:left;
+    background-color: rgb(231, 231, 231);
+    position: relative;
+    width:50%;
+}
+.patient-box3{
+
+    text-decoration: none;
+    padding:50px;
+    text-align: left;
+    font-size: 25px;
+    
+}
 
 /*------BOX 4-----*/
+.box4{
+    display:flex;
+    width:50%;
+}
+
 .patient-box4{
+    
+    background-color: rgb(230, 230, 230);
     text-decoration: none;
-    padding-top: 100px;
-    padding-left: 50px;
+    padding:50px;
     text-align: left;
     font-size: 25px;
 }
@@ -230,33 +258,34 @@ BOX 3-----*/
 }
 
 /*------BOX 5-----*/
+.box5{
+    float:left;
+    background-color: rgb(230, 230, 230);
+    position: relative;
+    width:50%;
+}
 .patient-box5{
+    background-color: bisque;
     text-decoration: none;
-    padding-top: 100px;
+    padding:50px;
     text-align: left;
     font-size: 25px;
 }
 
 /*------BOX 6-----*/
+.box6{
+    display:flex;
+    float:left;
+    width:50%;
+}
 .patient-box6{
+    
+    background-color: bisque;
     text-decoration: none;
-    padding-top: 100px;
-    text-align: center;
+    padding:50px;
+    text-align: left;
     font-size: 25px;
 }
-/*------BOX 7-----*/
-.patient-box7{
-    text-decoration: none;
-    padding-top: 100px;
-    text-align: center;
-    font-size: 25px;
-}
-
-
-
-
-
-
 
 /*---------------LINK ANIMATION-----------------*/
 .patient-links{
@@ -292,8 +321,73 @@ BOX 3-----*/
     width:100%;
 }
 
-/*---------------LINK ANIMATION-----------------*/
+/*---------------FOOTER-----------------*/
 
+.footer{
+    width: 100%;
+    padding: 70px 10%;
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    gap:90px;
+}
 
+.footer div{
+    text-align: center;
+    gap:0px;
+}
 
+.footer col-1 a{
+    width: 20;
+}
 
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    color: rgb(243, 243, 243);
+}
+
+.footer div a{
+    color: rgb(245, 245, 245);
+}
+
+.col-1 img{
+    gap: 25px;
+    height: 80px;
+}
+
+.col-5 img{
+    gap: 25px;
+    height: 80px;
+}
+
+.col-5{
+    display: flex;
+    padding-top: 30px;
+        
+}
+
+.col-1{
+    display: flex;
+    padding-top: 30px;
+    padding-right: 30px;
+        
+}
+
+.col-2{
+    flex-grow: 2;
+    padding-top: 15px;
+    
+}
+
+.col-3{
+    padding-top: 15px;
+}
+
+.col-4 img{
+    display:inline-flex;
+    height: 150px;
+    padding-right: 30px;
+    padding-top: 0px;
+
+}

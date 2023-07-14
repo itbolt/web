@@ -7,26 +7,17 @@
 
 body{
     font-family: 'Nunito', sans-serif;
-    /*background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(Resources/Images/white1.png),url(Resources/Images/nezukobg.jpg);
-    background: url(Resources/Images/nezukobg.jpg);
-    background-attachment:fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;*/
-
-    /*------------------------------------
-    background-position: right bottom, left top;
-    background-size: contain,contain;
-    background-repeat: no-repeat, no-repeat;*/
+    background-color: rgb(20, 19, 19);
 }
 
 /*-------------NAV BAR--------------*/
 
+
 .header{
-    background-color: rgb(244, 244, 244);
+    background-color: rgba(244,244,244,1);
+    /*background-color: rgb(244, 244, 244);*/
     width:100%;
-    height:115px;
+    height:150px;
     display: inline-block;
     background-position: center;
     position:relative;
@@ -42,37 +33,41 @@ body{
     
 }
 
-
 .image-box{
     border: 3px rgb(244, 244, 244);
-    padding: 15px;
+    padding: 10px;
+    padding-left: 420px;
     position:absolute;
 }
 
 .image-box img{
-    width:250px;
+    width:130px;
+    height: 130px;
 }
 .nav-links{
     border: 3px rgb(244, 244, 244);
     width:100%;
-    padding:25px;
-    padding-left:0px;
+    padding:60px;
+    padding-left:13%;
     flex:auto;
     text-align: center;
+    
 }
 
 .nav-links ul li{
     list-style: none;
     display: inline-block;
-    padding:12px 12px;
+    padding:0px 12px;
     position: relative;
+    
+
 }
 
 .nav-links ul li a{
     text-align: center;
     color: rgb(0, 0, 0);
     text-decoration: none;
-    font-size: 24px;
+    font-size: 30px;
 
 }
 
@@ -80,7 +75,7 @@ body{
     content:"";
     width:0%;
     height:2px;
-    background: #00dada;
+    background: #a5d3d3;
     display:block;
     margin:auto;
     transition:0.5s;
@@ -90,15 +85,53 @@ body{
     width:100%;
 }
 
-
 /*-------------TONG QUAN--------------*/
 
 .textbox1{
-    background-color: blanchedalmond;
-    padding:50px;
+    padding:80px;
+    background: rgb(216, 216, 216);
 }
 
 .textbox1 h3{
+    text-align: center;
+    font-size: 35px;
+}
+
+.textbox1 p1{
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+/*-------------TONG QUAN--------------*/
+
+
+.textbox2{
+    padding:80px;
+    background: rgb(127, 219, 211);
+}
+
+.textbox2 h3{
+    text-align: center;
+    font-size: 35px;
+}
+
+.textbox2 p1{
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+/*-------------TONG QUAN--------------*/
+
+.textbox3{
+    padding:50px;
+    background: rgb(216, 216, 216);
+    float:left;
+    position: relative;
+    width:33.33%;
+    height: 70%;
+}
+
+.textbox3 h3{
     display: block;
     font-size: 2em;
     margin-top: 0.67em;
@@ -108,17 +141,65 @@ body{
     font-weight: bold;
 }
 
-.textbox1 p1{
-    color:red;
+.textbox3 li{
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+/*-------------TONG QUAN--------------*/
+
+.management{
+    padding:50px;
+    background: rgb(216, 216, 216);
+    float:left;
+    position: relative;
+    width:33.33%;
+    height: 71%;
+}
+
+.management h3{
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+.management li{
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.management img{
+    display:flex;
+    width: 100%; /* or any custom size */
+    object-fit: fill;
+    
 }
 
 
 
-
-
-.textbox3{
-    background-color: blanchedalmond;
+/*-------------TONG QUAN--------------*/
+.cities{
+    padding:50px;
+    background: rgb(216, 216, 216);
+    float:left;
+    position: relative;
+    width:33.33%;
 }
+
+.cities h3{
+    text-align: left;
+    font-size: 35px;
+}
+
+.cities p1{
+    color:rgb(0, 0, 0);
+    font-size: 15px;
+}
+
 
 .list1 ul {
     list-style-type: circle;

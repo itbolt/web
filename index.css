@@ -260,8 +260,19 @@ body{
 }
 
 .why-list{
+    text-decoration:none;
+    background-color: rgb(231, 231, 231);
+    padding: 100px;
+    text-align: Left;
+    font-size: 25px;
+    width: 100%;
     text-align: left;
     list-style-type: circle;
+}
+
+.why-list h1{
+    font-size: 48px;
+    text-align: center;
 }
 
 /*------BOX 5-----*/

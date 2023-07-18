@@ -12,6 +12,7 @@ body{
 
 
 
+
 .header{
     background-color: rgba(244,244,244,1);
     /*background-color: rgb(244, 244, 244);*/
@@ -32,26 +33,29 @@ body{
     
 }
 
-.image-box{
-    border: 3px rgb(244, 244, 244);
-    padding: 10px;
-    padding-left: 485px;
-    position:absolute;
-}
-
-.image-box img{
-    width:130px;
-    height: 130px;
-}
 
 .nav-links{
     border: 3px rgb(244, 244, 244);
+    background-color: rgb(244, 244, 244);
     width:100%;
-    padding:60px;
-    padding-left:13%;
+    padding:1%;
+    padding-left:0%;
     flex:auto;
     text-align: center;
+    display:flex;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
     
+    
+}
+
+.logo{
+    width: 170px;
+    vertical-align: middle;
+    padding-right: 3%;
+    background-color: rgb(244, 244, 244);
+
 }
 
 .nav-links ul li{
@@ -59,6 +63,10 @@ body{
     display: inline-block;
     padding:0px 12px;
     position: relative;
+    background-color: rgb(244, 244, 244);
+    vertical-align: middle;
+
+    
     
 
 }

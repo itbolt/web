@@ -343,7 +343,7 @@ body{
 
 .footer{
     width: 100%;
-    padding: 70px 10%;
+    padding:3% 10%;
     background-color: rgb(48, 48, 48);
     display: flex;
     gap:90px;

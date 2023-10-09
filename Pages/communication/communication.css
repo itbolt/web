@@ -16,22 +16,24 @@ body{
     background-image: url(../../Resources/decor/bg1.jpg);
     margin:auto;
     max-width: 100%;
-    margin:auto;
-    padding:50px;
+    height: 75%;
+    padding:13%;
+    align-items: center;
     text-align: center;
-    height: 55%;
+    
+
 }
 
 .total h1{
     font-weight: bold;
     color:rgb(168, 255, 242);
-    padding-bottom: 15px;
+    padding-bottom: 0px;
 }
 
 .total h3{
     font-weight: bold;
     color:rgb(0, 0, 0);
-    padding-bottom: 15px;
+    padding-bottom: 1%;
     font-size: 40px;
 
 }

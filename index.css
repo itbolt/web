@@ -10,14 +10,18 @@ body{
     background-color: rgb(230, 230, 230);
 }
 
-
+@media (max-width: 1300px) {
+    body {
+        font-size: 10px;
+      }
+  }
 
 
 .header{
     background-color: rgba(244,244,244,1);
     /*background-color: rgb(244, 244, 244);*/
     width:100%;
-    height:150px;
+    height: 4%;
     display: inline-block;
     background-position: center;
     position:relative;
@@ -51,7 +55,7 @@ body{
 }
 
 .logo{
-    width: 150px;
+    width: 10%;
     vertical-align: middle;
     padding-right: 3%;
     background-color: rgb(244, 244, 244);
@@ -139,6 +143,7 @@ body{
     background-color: rgb(231, 231, 231);
     position: relative;
     display: flex;
+    align-items: center;
     width:100%;
 }
 .box{
@@ -163,7 +168,7 @@ body{
 .patient-box1{
     text-decoration:none;
     background-color: rgb(231, 231, 231);
-    padding: 100px;
+    padding: 6%;
     text-align: Left;
     font-size: 25px;
     width: 100%;
@@ -179,32 +184,29 @@ body{
     width: 100%;
 }
 .image-box1 img{
-    padding:50px;
+    padding:6%;
     width: 100%;
+    height: auto;
+    max-width: 100%;
     object-fit: cover;
 }
 
 /*------BOX 2-----*/
 .mission-box{
     background-color: rgb(231, 231, 231);
+    align-items: center;
     position: relative;
     display: flex;
     width:100%;
-    
-    
-
 }
 
 .patient-box2 {
     text-decoration:none;
     background-color: rgb(231, 231, 231);
-    padding: 100px;
+    padding: 6%;
     text-align: Left;
     font-size: 25px;
     width: 50%;
-
-    
-
 }
 
 .patient-box2 h1 {
@@ -212,18 +214,16 @@ body{
     text-align: center;
 }
 
-.patient-box2b {
-    background-image: url(Resources/Images/nezukobg.jpg);
-    position: relative;
-    right: 0px;
-}
 
 .image-box2{
     width: 50%;
+    height: auto;
 }
 .image-box2 img{
-    padding:50px;
+    padding:6%;
     width: 100%;
+    height: auto;
+    max-width: 100%;
     object-fit: cover;
 }
 
